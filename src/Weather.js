@@ -4,12 +4,12 @@ import './Weather.css';
 
 const Weather = () => {
   const [weather, setWeather] = useState({});
-  const [city, setCity] = useState('Bangalore');
+  const [city, setCity] = useState('Delhi');
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
-      const apiKey = 'f79792d8b8d18513c255a3e8fe9f36b8';
+      const apiKey = '25eaa034913ad790e73318890afa61fb';
       const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
       const response = await axios.get(url);
       setWeather(response.data);
