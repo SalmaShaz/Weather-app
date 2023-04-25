@@ -4,7 +4,7 @@ import './Weather.css';
 
 const Weather = () => {
   const [weather, setWeather] = useState({});
-  const [city, setCity] = useState('Bangalore');
+  const [city, setCity] = useState('Delhi');
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
