@@ -24,6 +24,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-#  git config --global user.email "salmasalma65@example.com"
-#   git config --global user.name "Your Name"
